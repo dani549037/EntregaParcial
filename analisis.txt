@@ -1,0 +1,20 @@
+ANALISIS
+
+Declaramos las variables de  𝜇 = 1000 𝐻𝑧 y 𝜎 = 300 𝐻𝑧. los cuales seran A y B respectivamente, el fdp y PROMACU (Probabilidad acumulada) y x todo como numeros reales.
+Hacemos un Display para mostrar un mensaje el cual sera "Ingrese la frecuencia de entrada en Hz", acompañado de un input para la variable x
+
+Le asignamos un valor a cada una de las variables, los cuales seran:
+A - 1000
+B - 300
+fdp - 0
+PROMACU - 0.3
+
+Usamos un bucle For para iterar sobre un rango de valores de "i" desde 0 hasta "x" y se calcula  fdp utilizando la formula dada en la descripcion del ejercicio
+
+Ahora se compara el valor de fdp con PROMACU.
+
+Si fpd es mayor entonces un Display quen diga "La señal pasa el filtro" de lo contrario un display que diga "la señal es bloqueada"
+
+--------------------------------------------------
+
+Daniel Alvarez caro 000549037

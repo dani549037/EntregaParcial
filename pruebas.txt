@@ -1,0 +1,13 @@
+PRUEBAS 
+
+Colocamos 1200 Hz, es mayor que la medida y por ende deberia darnos como resultado "La señal pasa el filtro"
+
+Colocamos 800 Hz, es menos que la medida, por ende nos deberia dar como resultado "La señal es bloqueada"
+
+Colocamos 1000 Hz, es igual a la medida, por ende deberia dar como resultado "La señal pasa el filtro"
+
+Esta son todas las pruebas que necesitamos hacer para comprobar que el codigo de Python funciona bien.
+
+-------------------------------------------------
+
+Daniel Alvarez caro 000549037

@@ -1,0 +1,23 @@
+Start
+	Declare Real x, A, B, fdp, PROMACU
+	Display "Ingrese la frecuencia de entrada en Hz: "
+	Input x
+	A <- 1000
+	B <- 300
+	fdp <- 0
+	PROMACU <- 0.3
+	
+	For i <- 0 Hasta x Hacer
+		fdp <- fdp + (1 / (B * raiz(2 * PI))) * exp(-0.5 * ((i - A) / B) ^ 2)
+	EndFor
+		
+	If fdp > PROMACU Entonces
+		Escribir "La señal pasa el filtro."
+	Else
+		Escribir "La señal es bloqueada."
+	EndIf
+
+End
+
+----------------------------------
+Daniel Alvarez caro 000549037
